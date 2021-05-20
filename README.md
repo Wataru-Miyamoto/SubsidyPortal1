@@ -1,24 +1,12 @@
-# README
+# 補助金・助成金・減免検索ツール
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+これはポートフォリオとして作成されたサンプルアプリケーションです。
 
-Things you may want to cover:
+## 開発環境
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* VS Code
+* Ruby
+* Rails
+* Git
+* node.js
+* vue.js
