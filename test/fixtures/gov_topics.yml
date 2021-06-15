@@ -1,0 +1,33 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  gov_name: MyString
+  title: MyString
+  period: MyString
+  content: MyString
+  target: MyString
+  counter: MyString
+  link: MyString
+  emergency: false
+  primary_sector: false
+  other_sector: false
+  emigration: false
+  senior: false
+  parenting: false
+  other: false
+
+two:
+  gov_name: MyString
+  title: MyString
+  period: MyString
+  content: MyString
+  target: MyString
+  counter: MyString
+  link: MyString
+  emergency: false
+  primary_sector: false
+  other_sector: false
+  emigration: false
+  senior: false
+  parenting: false
+  other: false

@@ -1,0 +1,2 @@
+class GovTopic < ApplicationRecord
+end
