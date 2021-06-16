@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_06_16_135457) do
+ActiveRecord::Schema.define(version: 2021_06_16_135850) do
 
   create_table "active_admin_comments", force: :cascade do |t|
     t.string "namespace"
@@ -80,6 +80,26 @@ ActiveRecord::Schema.define(version: 2021_06_16_135457) do
     t.boolean "other", default: true, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "pref_topics", force: :cascade do |t|
+    t.string "title"
+    t.string "period"
+    t.string "content"
+    t.string "target"
+    t.string "counter"
+    t.string "link"
+    t.boolean "emergency", default: false, null: false
+    t.boolean "primary_sector", default: false, null: false
+    t.boolean "other_sector", default: false, null: false
+    t.boolean "emigration", default: false, null: false
+    t.boolean "senior", default: false, null: false
+    t.boolean "parenting", default: false, null: false
+    t.boolean "other", default: true, null: false
+    t.integer "pref_id", null: false
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["pref_id"], name: "index_pref_topics_on_pref_id"
   end
 
   create_table "prefs", force: :cascade do |t|

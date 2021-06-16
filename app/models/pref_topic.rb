@@ -1,5 +1,6 @@
-class GovTopic < ApplicationRecord
-  validates :gov_name, presence: true, length: { maximum: 50 }
+class PrefTopic < ApplicationRecord
+  belongs_to :pref
+
   validates :title, presence: true, length: { maximum: 50 }
   validates :period, presence: true, length: { maximum: 70 }
   validates :content, presence: true, length: { maximum: 300 }
