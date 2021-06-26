@@ -5,7 +5,7 @@ ActiveAdmin.register GovTopic do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :gov_name, :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other
+  permit_params :gov_name, :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other
   #
   # or
   #

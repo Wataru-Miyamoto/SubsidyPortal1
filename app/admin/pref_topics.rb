@@ -5,7 +5,7 @@ ActiveAdmin.register PrefTopic do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other, :pref_id
+  permit_params :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other, :pref_id
   #
   # or
   #

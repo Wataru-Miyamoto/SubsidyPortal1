@@ -5,7 +5,7 @@ ActiveAdmin.register Draft do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :name, :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other, :select, :comment, :draft_approver_id, :draft_status, :user_id
+  permit_params :name, :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other, :select, :comment, :draft_approver_id, :draft_status, :user_id
   #
   # or
   #
@@ -13,6 +13,5 @@ ActiveAdmin.register Draft do
   #   permitted = [:name, :title, :period, :content, :target, :counter, :link, :emergency, :primary_sector, :other_sector, :emigration, :senior, :parenting, :other, :select, :comment, :draft_approver_id, :draft_status, :user_id]
   #   permitted << :other if params[:action] == 'create' && current_user.admin?
   #   permitted
-  # end
   
 end
